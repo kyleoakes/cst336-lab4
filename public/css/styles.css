@@ -12,3 +12,27 @@ img {
 a {
     color: #aaf;
 }
+
+nav {
+    border: 1px solid gray;
+    padding: 5px;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav .nav-button {
+    size: 1.5em;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    
+    background-color: #111;
+    
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
