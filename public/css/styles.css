@@ -13,9 +13,24 @@ a {
     color: #aaf;
 }
 
+nav a:hover {
+    font-size: 2em;
+    transition: 0.7s;
+}
+
+nav a img:hover {
+    max-width: 150%;
+    width: 150%;
+    transition: 0.7s;
+    padding: 5%;
+    padding-right: 50%;
+}
+
 nav {
-    border: 1px solid gray;
+    /*border: 1px solid gray;*/
     padding: 5px;
+    border: 1px solid #444;
+    background-color: #111;
     
     display: flex;
     flex-direction: row;
@@ -35,4 +50,11 @@ nav .nav-button {
     flex-basis: auto;
     flex-grow: 0;
     flex-shrink: 1;
+}
+
+p {
+    border: 1px solid #444;
+    background-color: #111;
+    color: white;
+    border-radius: 10px;
 }
